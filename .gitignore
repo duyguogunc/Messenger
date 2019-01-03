@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/Messenger/.vs/Messenger/v15/Server/sqlite3
+/Messenger/.vs/Messenger/v15/.suo
+/Messenger/Messenger/obj/Debug
+/Messenger/Messenger/Messenger.csproj.user
