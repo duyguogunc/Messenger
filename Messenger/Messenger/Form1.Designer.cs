@@ -28,13 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.rch_GelenYazi = new System.Windows.Forms.RichTextBox();
+            this.rch_GidenYazi = new System.Windows.Forms.RichTextBox();
+            this.btn_Gonder = new System.Windows.Forms.Button();
+            this.lst_KisiListesi = new System.Windows.Forms.ListBox();
+            this.SuspendLayout();
+            // 
+            // rch_GelenYazi
+            // 
+            this.rch_GelenYazi.Location = new System.Drawing.Point(12, 12);
+            this.rch_GelenYazi.Name = "rch_GelenYazi";
+            this.rch_GelenYazi.Size = new System.Drawing.Size(620, 296);
+            this.rch_GelenYazi.TabIndex = 0;
+            this.rch_GelenYazi.Text = "";
+            // 
+            // rch_GidenYazi
+            // 
+            this.rch_GidenYazi.Location = new System.Drawing.Point(12, 351);
+            this.rch_GidenYazi.Name = "rch_GidenYazi";
+            this.rch_GidenYazi.Size = new System.Drawing.Size(620, 123);
+            this.rch_GidenYazi.TabIndex = 1;
+            this.rch_GidenYazi.Text = "";
+            // 
+            // btn_Gonder
+            // 
+            this.btn_Gonder.BackgroundImage = global::Messenger.Properties.Resources.mail_send;
+            this.btn_Gonder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Gonder.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btn_Gonder.Location = new System.Drawing.Point(652, 418);
+            this.btn_Gonder.Name = "btn_Gonder";
+            this.btn_Gonder.Size = new System.Drawing.Size(108, 56);
+            this.btn_Gonder.TabIndex = 2;
+            this.btn_Gonder.Text = "GÖNDER";
+            this.btn_Gonder.UseVisualStyleBackColor = true;
+            // 
+            // lst_KisiListesi
+            // 
+            this.lst_KisiListesi.FormattingEnabled = true;
+            this.lst_KisiListesi.ItemHeight = 16;
+            this.lst_KisiListesi.Location = new System.Drawing.Point(652, 12);
+            this.lst_KisiListesi.Name = "lst_KisiListesi";
+            this.lst_KisiListesi.Size = new System.Drawing.Size(131, 340);
+            this.lst_KisiListesi.TabIndex = 3;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(795, 496);
+            this.Controls.Add(this.lst_KisiListesi);
+            this.Controls.Add(this.btn_Gonder);
+            this.Controls.Add(this.rch_GidenYazi);
+            this.Controls.Add(this.rch_GelenYazi);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.RichTextBox rch_GelenYazi;
+        private System.Windows.Forms.RichTextBox rch_GidenYazi;
+        private System.Windows.Forms.Button btn_Gonder;
+        private System.Windows.Forms.ListBox lst_KisiListesi;
     }
 }
 
