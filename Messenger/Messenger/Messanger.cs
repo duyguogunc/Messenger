@@ -8,6 +8,6 @@ namespace Messenger
 {
     class Messanger
     {
-        Console.Writeline("Sondan 2. sıra");
+        
     }
 }
