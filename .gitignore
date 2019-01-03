@@ -3,3 +3,11 @@
 ################################################################################
 
 *.suo
+*.sqlite
+*.json
+*.lock
+*.ide
+*.ide-shm
+*.ide-wal
+/Messenger/Entity/obj/Debug
+/Messenger/Messenger/obj/Release
