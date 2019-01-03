@@ -11,3 +11,4 @@
 *.ide-wal
 /Messenger/Entity/obj/Debug
 /Messenger/Messenger/obj/Release
+/Messenger/Messenger/obj/Debug
