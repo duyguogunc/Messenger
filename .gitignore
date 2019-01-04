@@ -7,3 +7,9 @@
 /Messenger/.vs/Messenger/v15/.suo
 /Messenger/Messenger/obj/Debug
 /Messenger/Messenger/Messenger.csproj.user
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
