@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace BLL
 {
     public class SqlHelper
@@ -21,11 +22,8 @@ namespace BLL
                 Password=123456";
             conn=new SqlConnection(connetionString);
         }
-
-        public void InsertMessage(int? SenderID,int? Receiver,string Message)
-        {
-
-        }
+        
+       
        
     }
 }
