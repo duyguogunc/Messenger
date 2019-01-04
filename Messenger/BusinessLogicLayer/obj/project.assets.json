@@ -4406,11 +4406,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Section1\\Source\\Repos\\Messenger\\Messenger\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Section1\\source\\repos\\Messenger\\Messenger\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
       "projectName": "BusinessLogicLayer",
-      "projectPath": "C:\\Users\\Section1\\Source\\Repos\\Messenger\\Messenger\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
+      "projectPath": "C:\\Users\\Section1\\source\\repos\\Messenger\\Messenger\\BusinessLogicLayer\\BusinessLogicLayer.csproj",
       "packagesPath": "C:\\Users\\Section1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Section1\\Source\\Repos\\Messenger\\Messenger\\BusinessLogicLayer\\obj\\",
+      "outputPath": "C:\\Users\\Section1\\source\\repos\\Messenger\\Messenger\\BusinessLogicLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Section1\\AppData\\Roaming\\NuGet\\NuGet.Config",
