@@ -22,8 +22,12 @@ namespace BLL
                 Password=123456";
             conn=new SqlConnection(connetionString);
         }
-        
-       
+
+        public string sendMessage()
+        {
+
+        }
+        public List<>
        
     }
 }
